@@ -7,6 +7,10 @@
     <meta name="author" content="Toast Energy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#B8844A">
+    <meta property="og:title" content="Energy Toast">
+    <meta property="og:description" content="The strongest toast">
+    <meta property="og:image" content="https://cdn.toastenergy.xyz/logo1.png">
+    <meta name="theme-color" content="#b8844a">
     <title>Toast Energy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,18 +21,39 @@
   <body>
     <div class="container">
       <div class="header">
-        <img src="https://cdn.toastenergy.xyz/logo1.png" alt="Toasty">
         <h1>Toast<br>Energy</h1>
+        <img src="https://cdn.toastenergy.xyz/logo1.png" alt="Toasty">
       </div>
-      <quote class="description"><em>The strongest Toast</em></quote>
+      <quote class="description"><em>The strongest Toast</em>&nbsp;</quote>
       <div class="projects">
-        <div class="project">
-          <a href="https://discord.gg/USWYku9c5h">Discord</a>
+        <div class="project" onclick="sendTo('https://discord.gg/USWYku9c5h')">
+          <h3 style="background:#5865F2;">Discord</h3>
+          <p>Join our Discord server to stay connected with us!</p>
         </div>
-        <div class="project">
-          <a href="https://toastenergy.xyz/ToastClicker">Toast Clicker</a>
+        <div class="project" onclick="sendTo('https://toastenergy.xyz/ToastClicker')">
+          <h3 style="background:#835e35;">Toast Clicker</h3>
+          <p>Test your speed clicking the toast!</p>
+        </div>
+        <div class="project" onclick="sendTo('https://cookie-is.the-be.st')">
+          <h3 style="background:#d8ad6a;">Cookie Fighter</h3>
+          <p>Fight your friends with cookies on Discord!</p>
+        </div>
+      </div>
+      <div class="users">
+        <div class="user">
+          <img src="https://cdn.discordapp.com/attachments/706294720346718248/876961762904272896/satoru_no-face.png" alt="Discord User">
+          <p>Sebastiano#3151</p>
+        </div>
+        <div class="user">
+          <img src="https://cdn.discordapp.com/attachments/706294720346718248/876961726812258394/unknown.png" alt="Discord User">
+          <p>chickenmatty#4766</p>
+        </div>
+        <div class="user">
+          <img src="https://cdn.discordapp.com/attachments/706294720346718248/876961587330695248/unknown.png" alt="Discord User">
+          <p>Infinit7Even#6397</p>
         </div>
       </div>
     </div>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
