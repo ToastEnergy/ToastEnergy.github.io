@@ -35,7 +35,7 @@ body {
 }
 
 .projects {
-  margin-top: 50px;
+  margin-top: 45px;
   text-align: center;
 }
 
@@ -48,12 +48,16 @@ body {
   display: inline-block;
 }
 
+.project p {
+  margin: 5px;
+}
+
 .project:hover {
   padding: 5px 5px;
 }
 
 .users {
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 
