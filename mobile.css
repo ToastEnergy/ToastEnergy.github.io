@@ -2,14 +2,9 @@ body {
   font-family: 'Nunito', sans-serif;
   background: #2C2F33;
   color: #f0f0f0;
-  overflow-x: hidden;
 }
 
 .container {
-  width: 100%;
-  top: 50%;
-  transform: translateY(-55%);
-  position: absolute;
   text-align: center;
 }
 
@@ -21,13 +16,13 @@ body {
 }
 
 .header h1 {
-  font-size: 55px;
+  font-size: 40px;
   color: #B8844A;
   text-shadow: 2px 2px #4F3F32;
 }
 
 .header img {
-  width: 200px;
+  width: 150px;
   margin-left: 15px;
 }
 
@@ -40,19 +35,17 @@ body {
 }
 
 .projects {
-  margin-top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .project {
-  margin-left: 20px;
   background: #b8844a;
-  max-width: 150px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition-duration: .3s;
+  max-width: 200px;
+  padding: 2px 2px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .project:hover {
@@ -61,24 +54,22 @@ body {
 
 .users {
   margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .user {
-  margin-left: 10px;
-  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-top: 10px;
   background: #3d3632;
   padding: 12px 12px;
   border-radius: 12px;
 }
 
 .user img {
-  width: 60px;
+  width: 50px;
   margin-right: 10px;
   border-radius: 100px;
 }
