@@ -1,0 +1,25 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #2C2F33;
+  color: #bdb9b9;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  color: #B8844A;
+  text-shadow: 2px 2px #595959;
+}
+
+.header img {
+  width: 100px;
+  margin-right: 10px;
+}
