@@ -15,11 +15,35 @@ body {
 }
 
 .header h1 {
+  font-size: 55px;
   color: #B8844A;
-  text-shadow: 2px 2px #595959;
+  text-shadow: 2px 2px #4F3F32;
 }
 
 .header img {
-  width: 100px;
-  margin-right: 10px;
+  width: 200px;
+  margin-right: 15px;
+}
+
+.description {
+  font-size: 200%;
+  background: RGBA(79, 63, 50, 0.5);
+  box-shadow: 5px 5px #B8844A;
+  padding: 10px 10px;
+  border-radius: 12px;
+}
+
+.projects {
+  margin-top: 100px;
+}
+
+.project {
+  float: left;
+  margin-left: 20px;
+  left: 50%;
+}
+
+.project a {
+  text-decoration: none;
+  color: unset;
 }
