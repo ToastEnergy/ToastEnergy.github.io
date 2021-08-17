@@ -72,6 +72,10 @@ body {
   border-radius: 12px;
 }
 
+.user:hover {
+  padding: 17px 17px;
+}
+
 .user img {
   width: 50px;
   margin-right: 10px;
