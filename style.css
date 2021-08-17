@@ -67,6 +67,7 @@ body {
 }
 
 .user {
+  cursor: pointer;
   margin-left: 10px;
   margin-right: 10px;
   display: flex;
@@ -75,6 +76,11 @@ body {
   background: #3d3632;
   padding: 12px 12px;
   border-radius: 12px;
+  transition-duration: .3s;
+}
+
+.user:hover {
+  padding: 17px 17px;
 }
 
 .user img {
