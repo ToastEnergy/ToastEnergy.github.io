@@ -6,10 +6,6 @@ body {
 }
 
 .container {
-  width: 100%;
-  top: 50%;
-  transform: translateY(-55%);
-  position: absolute;
   text-align: center;
 }
 
@@ -39,20 +35,42 @@ body {
   border-radius: 12px;
 }
 
-.projects {
+.projectsff {
   margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.project {
+.projectd {
   margin-left: 20px;
   background: #b8844a;
   max-width: 150px;
+  min-height: 150px;
   border-radius: 12px;
   cursor: pointer;
   transition-duration: .3s;
+}
+
+.projects {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.project {
+  cursor: pointer;
+  background: #b8844a;
+  max-width: 200px;
+  padding: 2px 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  transition-duration: .3s;
+}
+
+.project p {
+  margin: 10px;
 }
 
 .project:hover {
@@ -87,4 +105,55 @@ body {
   width: 60px;
   margin-right: 10px;
   border-radius: 100px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #757876;
+  transition-duration: .2s;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer a:not(footer a:first-child) {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .users {
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+  }
+
+  .user {
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .user img {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .header img {
+    width: 150px;
+  }
+
+  .project {
+    margin-top: 10px;
+  }
 }
