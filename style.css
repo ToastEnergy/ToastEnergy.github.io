@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   background: #2C2F33;
@@ -7,16 +11,22 @@ body {
 
 .container {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: calc(100vh - 40px);
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .header h1 {
+  margin: 0;
   font-size: 55px;
   color: #B8844A;
   text-shadow: 2px 2px #4F3F32;
@@ -33,39 +43,23 @@ body {
   box-shadow: 5px 5px #B8844A;
   padding: 10px 10px;
   border-radius: 12px;
-}
-
-.projectsff {
-  margin-top: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.projectd {
-  margin-left: 20px;
-  background: #b8844a;
-  max-width: 150px;
-  min-height: 150px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition-duration: .3s;
+  white-space: nowrap;
 }
 
 .projects {
   margin-top: 45px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .project {
   cursor: pointer;
   background: #b8844a;
   max-width: 200px;
-  padding: 2px 2px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-  display: inline-block;
+  border-radius: 10px;
   transition-duration: .3s;
 }
 
@@ -74,7 +68,7 @@ body {
 }
 
 .project:hover {
-  padding: 5px 5px;
+  scale: 1.05;
 }
 
 .users {
